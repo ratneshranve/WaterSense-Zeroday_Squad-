@@ -1,0 +1,40 @@
+﻿[dotenv@17.3.1] injecting env (3) from .env -- tip: ≡ƒ¢á∩╕Å  run anywhere with `dotenvx run -- yourcommand`
+node : file:///C:/Users/Ab
+com/Desktop/WaterSense/bac
+kend/server.js:47
+At line:1 char:1
++ node server.js > 
+error.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (f  
+  ile:///C:/User...nd/s   
+ erver.js:47:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+app.use(cookieParser());
+    ^
+
+ReferenceError: 
+cookieParser is not 
+defined
+    at file:///C:/Users/Ab
+com/Desktop/WaterSense/bac
+kend/server.js:47:5
+    at ModuleJob.run (node
+:internal/modules/esm/modu
+le_job:274:25)
+    at async onImport.trac
+ePromise.__proto__ (node:i
+nternal/modules/esm/loader
+:644:26)
+    at async asyncRunEntry
+PointWithESMLoader (node:i
+nternal/modules/run_main:1
+17:5)
+
+Node.js v22.16.0
